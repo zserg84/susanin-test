@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1240px) and (min-width: 768px) {
+   
+}
+@media screen and (min-width: 1380px){
+	.wrapper{
+		width:1380px;	
+	}
+	
+	.create_nav ul li{
+		width:434px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+    #first div.heading h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    /*
+    div.large_filter div.line div.left,
+    div.large_filter div.line div.right,
+    div.large_filter div.line div.right label,
+    div.large_filter div.line div.right a,
+    div.large_filter div.line div.right a.sort,
+    div.large_filter div.line div.right span.date,
+    div.large_filter div.line div.right span.lang,
+    div.large_filter button {
+        font-weight: bold;
+    }
+    */
+}

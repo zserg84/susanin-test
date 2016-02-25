@@ -1,0 +1,16 @@
+.form-lang-tab{
+    display: none;
+}
+.form-lang-tab.active{
+    display: block;
+}
+/*.language-item.active{
+    background: grey;
+}*/
+
+#pjax-languages-container .buttons span.select-language, #pjax-languages-container .buttons span.add{
+    display: none;
+}
+#pjax-languages-container .buttons span.active{
+    display: block;
+}
