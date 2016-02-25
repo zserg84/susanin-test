@@ -24,6 +24,17 @@ class m130524_201442_init extends Migration
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
         ], $tableOptions);
+
+        $this->insert('user', [
+            'username' => 'admin',
+            'password_hash' => '$2y$13$gtJtfUz/cMF/MdxP2.VhFOwGs6N3317OJAcDjnFGSoYILHoP3oGMi',
+            'auth_key' => 'btWr6CYA8aOISFayEntZcV1ZT8PaSMLm',
+            'password_reset_token' => 'def1gsdO5HR_3esflDLLv1_4GMwjIB-E_1456313310',
+            'email' => 'admin@gmail.com',
+            'status' => 10,
+            'created_at' => '1456297483',
+            'updated_at' => '1456297483'
+        ]);
     }
 
     public function down()

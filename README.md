@@ -5,6 +5,8 @@
 
 1. Скачать проект
 2. Выполнить php init
-3. Создать БД test.
-4. В файле /common/config/main изменить настройки БД
-5. Миграции php yii migrate.
+3. Загрузить все необходимые библиотеки из композера composer install
+4. Создать БД test.
+5. В файле /common/config/main изменить настройки БД
+6. Миграции php yii migrate.
+7. Админ - user - admin, pass - 123456
